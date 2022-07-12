@@ -26,12 +26,17 @@ library(spacyr) # to parse grammar
 # Let's load the data from memory
 rev_small<-readRDS("data/rev_small.RDS")
 
+
+source("text_basics.R")    
+
 # ngrams, model training, dictionaries
+source("ngram_model.R")
 
-source("basicNLP.R")    
+# using SoaCy pre-trained model
+source("sentence_structure.R")
 
-
-
-# source("structuralNLP.R") # politeness, conversation
-# 
-# source("receptiveness.R") # receptiveness example
+# politeness, conversation
+source("conversations.R") 
+ 
+# receptiveness example
+source("receptiveness.R") 

@@ -25,9 +25,6 @@ spacyr::spacy_parse(gtest,dependency=TRUE,entity = TRUE)
 politeness::politeness(gtest,parser="spacy",drop_blank=TRUE)
 
 
-library(tidyverse)
-library(politeness)
-
 # This is data from an mTurk study we ran.. people wrote hypothetical first offers
 head(phone_offers,20)
 
