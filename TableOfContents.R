@@ -32,7 +32,7 @@ source("text_basics.R")
 # ngrams, model training, dictionaries
 source("ngram_model.R")
 
-# using SoaCy pre-trained model
+# using SpaCy pre-trained model
 source("sentence_structure.R")
 
 # politeness, conversation
